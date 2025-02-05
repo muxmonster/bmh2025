@@ -1,0 +1,14 @@
+.main-box {
+  margin-top: 1rem;
+  background-color: white;
+  border: 1px solid hsla(0, 0%, 65%, 0.158);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  z-index: 99;
+  padding: 1rem;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
