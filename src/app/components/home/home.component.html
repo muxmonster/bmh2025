@@ -4,16 +4,27 @@
     <div class="card-text">
       <div class="clr-row">
         <div class="clr-col">
-          <div class="card justify-content-center align-items-center d-flex">
-            <div class="static form-container">
-              <a [href]="mophUrl">
-                เข้าสู่ระบบด้วย
+          <div class="justify-content-center align-items-center">
+            <div class="form-container">
+              <div>
                 <img
                   src="assets/images/providerid_logo.png"
-                  [width]="100"
-                  [height]="30"
+                  [width]="350"
+                  [height]="150"
                 />
-              </a>
+              </div>
+              <div>
+                <a class="btn btn-block btn-success-outline" [href]="mophUrl">
+                  <cds-icon shape="login" badge="info"></cds-icon>
+                  ลงชื่อเข้าใช้
+                </a>
+              </div>
+              <div>
+                <span class="label label-success"
+                  >If not know ProviderID please contact Computer Center or
+                  Tel.511
+                </span>
+              </div>
             </div>
           </div>
         </div>
